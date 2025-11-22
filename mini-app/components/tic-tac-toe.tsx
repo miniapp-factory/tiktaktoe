@@ -99,7 +99,7 @@ export default function TicTacToe() {
         </div>
       )}
       {moves === 9 && !winner && (
-        <div className="text-2xl font-semibold">It's a draw!</div>
+        <div className="text-2xl font-semibold">It is a draw!</div>
       )}
       {(winner || moves === 9) && (
         <button
